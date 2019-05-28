@@ -145,5 +145,6 @@ public class Carla : ModuleRules
     PublicDefinitions.Add("BOOST_NO_EXCEPTIONS");
     PublicDefinitions.Add("LIBCARLA_NO_EXCEPTIONS");
     PublicDefinitions.Add("PUGIXML_NO_EXCEPTIONS");
+    // PublicDefinitions.Add("LIDAR_PROFILE");
   }
 }

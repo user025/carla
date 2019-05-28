@@ -10,12 +10,15 @@
 
 #include "Carla/Actor/ActorDefinition.h"
 #include "Carla/Sensor/LidarDescription.h"
+#include "PhysicalMaterials/PhysicalMaterial.h"
 
 #include <compiler/disable-ue4-macros.h>
+#include <vector>
 #include <carla/sensor/s11n/LidarMeasurement.h>
 #include <compiler/enable-ue4-macros.h>
-
 #include "RayCastLidar.generated.h"
+
+
 
 /// A ray-cast based Lidar sensor.
 UCLASS()
@@ -44,11 +47,15 @@ private:
   /// Creates a Laser for each channel.
   void CreateLasers();
 
+  /// run one channel shoot.
+  void ShootOneChannel(uint32 PointsToScanWithOneLaser, uint32 Channel, float StartAngle, float AngleStep);
+
   /// Updates LidarMeasurement with the points read in DeltaTime.
   void ReadPoints(float DeltaTime);
 
   /// Shoot a laser ray-trace, return whether the laser hit something.
-  bool ShootLaser(uint32 Channel, float HorizontalAngle, FVector &Point) const;
+  bool ShootLaser(const uint32 Channel, const std::vector<float>& HorizontalAngles, std::vector<FVector> &XYZs, std::vector<uint32> &hit_ats);
+
 
   UPROPERTY(EditAnywhere)
   FLidarDescription Description;

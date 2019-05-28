@@ -75,6 +75,7 @@ namespace s11n {
     void Reset(uint32_t total_point_count) {
       std::memset(_header.data() + Index::SIZE, 0, sizeof(uint32_t) * GetChannelCount());
       _points.clear();
+      _hits.clear();
       _points.reserve(3u * total_point_count);
     }
 
@@ -86,11 +87,16 @@ namespace s11n {
       _points.emplace_back(point.z);
     }
 
+    void WriteGroundtruth(uint32_t actor_id) {
+        _hits.emplace_back(actor_id);
+    }
+
   private:
 
     std::vector<uint32_t> _header;
 
     std::vector<float> _points;
+    std::vector<uint32_t> _hits;
   };
 
 } // namespace s11n

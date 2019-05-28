@@ -1,0 +1,170 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACityMapGenerator	CityMapGenerator.cpp	/^ACityMapGenerator::ACityMapGenerator(const FObjectInitializer& ObjectInitializer)$/;"	f	class:ACityMapGenerator
+ACityMapGenerator	CityMapGenerator.h	/^class CARLA_API ACityMapGenerator : public ACityMapMeshHolder$/;"	c
+ADD_INTERSECTION	CityMapGenerator.cpp	195;"	d	file:
+ADD_INTERSECTION	CityMapGenerator.cpp	230;"	d	file:
+ADelegate	Carla.Build.cs	/^  delegate string ADelegate(string s);$/;"	m	class:Carla	file:
+ADynamicWeather	DynamicWeather.cpp	/^ADynamicWeather::ADynamicWeather(const FObjectInitializer& ObjectInitializer) :$/;"	f	class:ADynamicWeather
+ADynamicWeather	DynamicWeather.h	/^class CARLA_API ADynamicWeather : public AActor$/;"	c
+AOpenDriveActor	OpenDriveActor.cpp	/^AOpenDriveActor::AOpenDriveActor(const FObjectInitializer &ObjectInitializer)$/;"	f	class:AOpenDriveActor
+AOpenDriveActor	OpenDriveActor.h	/^class CARLA_API AOpenDriveActor : public AActor$/;"	c
+ARoadIntersection	RoadIntersection.cpp	/^ARoadIntersection::ARoadIntersection(const FObjectInitializer& ObjectInitializer) :$/;"	f	class:ARoadIntersection
+ARoadIntersection	RoadIntersection.h	/^class CARLA_API ARoadIntersection : public AActor$/;"	c
+ARoadSegment	RoadSegment.cpp	/^ARoadSegment::ARoadSegment(const FObjectInitializer& ObjectInitializer) :$/;"	f	class:ARoadSegment
+ARoadSegment	RoadSegment.h	/^class CARLA_API ARoadSegment : public AStaticMeshCollection$/;"	c
+ActivateWeatherDescription	DynamicWeather.h	/^  void ActivateWeatherDescription(const FWeatherDescription &WeatherDescription)$/;"	f	class:ADynamicWeather
+AddBoostLibs	Carla.Build.cs	/^  private void AddBoostLibs(string LibPath)$/;"	m	class:Carla	file:
+AddCarlaServerDependency	Carla.Build.cs	/^  private void AddCarlaServerDependency(ReadOnlyTargetRules Target)$/;"	m	class:Carla	file:
+AddSpawners	OpenDriveActor.cpp	/^void AOpenDriveActor::AddSpawners()$/;"	f	class:AOpenDriveActor
+AdjustSunPositionBasedOnActorRotation	DynamicWeather.cpp	/^void ADynamicWeather::AdjustSunPositionBasedOnActorRotation()$/;"	f	class:ADynamicWeather
+AppendPiece	RoadSegment.h	/^  void AppendPiece(const FRoadSegmentPiece &RoadSegmentPiece)$/;"	f	class:ARoadSegment
+ArrowComponent	DynamicWeather.h	/^  UArrowComponent *ArrowComponent;$/;"	m	class:ADynamicWeather
+BeginPlay	DynamicWeather.cpp	/^void ADynamicWeather::BeginPlay()$/;"	f	class:ADynamicWeather
+BuildRoutes	OpenDriveActor.cpp	/^void AOpenDriveActor::BuildRoutes()$/;"	f	class:AOpenDriveActor
+BuildRoutes	OpenDriveActor.cpp	/^void AOpenDriveActor::BuildRoutes(FString MapName)$/;"	f	class:AOpenDriveActor
+CARLA_CREATE_STATIC_MESH_COMPONENT	RoadIntersection.cpp	19;"	d	file:
+CARLA_CREATE_STATIC_MESH_COMPONENT	RoadIntersection.cpp	36;"	d	file:
+Carla	Carla.Build.cs	/^  public Carla(ReadOnlyTargetRules Target) : base(Target)$/;"	m	class:Carla
+Carla	Carla.Build.cs	/^public class Carla : ModuleRules$/;"	c
+CheckWeatherValidity	DynamicWeather.cpp	/^static bool CheckWeatherValidity(const FWeatherDescription &Weather)$/;"	f	file:
+Dcel	CityMapGenerator.h	/^  TUniquePtr<MapGen::DoublyConnectedEdgeList> Dcel;$/;"	m	class:ACityMapGenerator
+DcelParser	CityMapGenerator.h	/^  TUniquePtr<MapGen::GraphParser> DcelParser;$/;"	m	class:ACityMapGenerator
+DebugRoutes	OpenDriveActor.cpp	/^void AOpenDriveActor::DebugRoutes() const$/;"	f	class:AOpenDriveActor
+ELaneLeft	RoadSegment.cpp	/^  ELaneLeft,$/;"	e	enum:RoadSegmentItems	file:
+ELaneMarkingBroken	RoadSegment.cpp	/^  ELaneMarkingBroken,$/;"	e	enum:RoadSegmentItems	file:
+ELaneMarkingSolid	RoadSegment.cpp	/^  ELaneMarkingSolid,$/;"	e	enum:RoadSegmentItems	file:
+ELaneMarkingType	RoadSegment.h	/^enum class ELaneMarkingType : uint8$/;"	c
+ELaneRight	RoadSegment.cpp	/^  ELaneRight,$/;"	e	enum:RoadSegmentItems	file:
+ERoadIntersectionItem	RoadIntersection.h	/^enum class ERoadIntersectionItem : uint8$/;"	c
+ESidewalkLeft	RoadSegment.cpp	/^  ESidewalkLeft,$/;"	e	enum:RoadSegmentItems	file:
+ESidewalkRight	RoadSegment.cpp	/^  ESidewalkRight,$/;"	e	enum:RoadSegmentItems	file:
+EditorApplyRotation	DynamicWeather.cpp	/^void ADynamicWeather::EditorApplyRotation($/;"	f	class:ADynamicWeather
+FCarlaModule	Carla.h	/^class FCarlaModule : public IModuleInterface$/;"	c
+FHalfEdgeCounter	CityMapGenerator.cpp	/^class FHalfEdgeCounter {$/;"	c	file:
+FRoadSegmentPiece	RoadSegment.h	/^struct CARLA_API FRoadSegmentPiece$/;"	s
+FileName	DynamicWeather.h	/^  FString FileName;$/;"	m	class:ADynamicWeather
+GenerateGraph	CityMapGenerator.cpp	/^void ACityMapGenerator::GenerateGraph()$/;"	f	class:ACityMapGenerator
+GenerateRoad	RoadSegment.cpp	/^void ARoadSegment::GenerateRoad()$/;"	f	class:ARoadSegment
+GenerateRoadMap	CityMapGenerator.cpp	/^void ACityMapGenerator::GenerateRoadMap()$/;"	f	class:ACityMapGenerator
+GenerateRoads	CityMapGenerator.cpp	/^void ACityMapGenerator::GenerateRoads()$/;"	f	class:ACityMapGenerator
+GetIniFileName	DynamicWeather.cpp	/^static FString GetIniFileName(const FString &MapName = TEXT(""))$/;"	f	file:
+GetNumberOfPieces	RoadSegment.h	/^  int32 GetNumberOfPieces() const$/;"	f	class:ARoadSegment
+GetRoadMap	CityMapGenerator.h	/^  URoadMap *GetRoadMap()$/;"	f	class:ACityMapGenerator
+GetSunDirection	DynamicWeather.cpp	/^FVector ADynamicWeather::GetSunDirection() const$/;"	f	class:ADynamicWeather
+GetWeatherDescription	DynamicWeather.h	/^  const FWeatherDescription &GetWeatherDescription() const$/;"	f	class:ADynamicWeather
+GetWeatherIniFilePath	DynamicWeather.cpp	/^static bool GetWeatherIniFilePath(const FString &FileName, FString &FilePath)$/;"	f	file:
+HandleSettingsSaved	Carla.cpp	/^bool FCarlaModule::HandleSettingsSaved()$/;"	f	class:FCarlaModule
+Insert	CityMapGenerator.cpp	/^  bool Insert(const HalfEdge &InHalfEdge)$/;"	f	class:FHalfEdgeCounter
+IsWindows	Carla.Build.cs	/^  private bool IsWindows(ReadOnlyTargetRules Target)$/;"	m	class:Carla	file:
+LOCTEXT_NAMESPACE	Carla.cpp	85;"	d	file:
+LOCTEXT_NAMESPACE	Carla.cpp	9;"	d	file:
+LaneLeft	RoadSegment.h	/^  UStaticMesh *LaneLeft;$/;"	m	class:ARoadSegment
+LaneMarking	RoadSegment.h	/^  ELaneMarkingType LaneMarking = ELaneMarkingType::Solid;$/;"	m	struct:FRoadSegmentPiece
+LaneMarkingBroken	RoadSegment.h	/^  UStaticMesh *LaneMarkingBroken;$/;"	m	class:ARoadSegment
+LaneMarkingSolid	RoadSegment.h	/^  UStaticMesh *LaneMarkingSolid;$/;"	m	class:ARoadSegment
+LaneRight	RoadSegment.h	/^  UStaticMesh *LaneRight;$/;"	m	class:ARoadSegment
+LineTrace	CityMapGenerator.cpp	/^static bool LineTrace($/;"	f	file:
+LoadFromConfigFile	DynamicWeather.cpp	/^bool ADynamicWeather::LoadFromConfigFile()$/;"	f	class:ADynamicWeather
+LoadWeatherDescriptionsFromFile	DynamicWeather.cpp	/^void ADynamicWeather::LoadWeatherDescriptionsFromFile($/;"	f	class:ADynamicWeather
+LogCarla	Carla.cpp	/^DEFINE_LOG_CATEGORY(LogCarla);$/;"	v
+LogCarlaServer	Carla.cpp	/^DEFINE_LOG_CATEGORY(LogCarlaServer);$/;"	v
+MapSizeX	CityMapGenerator.h	/^  uint32 MapSizeX = 20u;$/;"	m	class:ACityMapGenerator
+MapSizeY	CityMapGenerator.h	/^  uint32 MapSizeY = 20u;$/;"	m	class:ACityMapGenerator
+NUMBER_OF_ITEMS	RoadSegment.cpp	/^  NUMBER_OF_ITEMS$/;"	e	enum:RoadSegmentItems	file:
+OnConstruction	DynamicWeather.cpp	/^void ADynamicWeather::OnConstruction(const FTransform &Transform)$/;"	f	class:ADynamicWeather
+OnConstruction	RoadSegment.cpp	/^void ARoadSegment::OnConstruction(const FTransform &Transform)$/;"	f	class:ARoadSegment
+PersistentTrafficLights	OpenDriveActor.h	/^  TArray<AActor *> PersistentTrafficLights;$/;"	m	class:AOpenDriveActor
+PersistentTrafficSigns	OpenDriveActor.h	/^  TArray<AActor *> PersistentTrafficSigns;$/;"	m	class:AOpenDriveActor
+PixelsPerMapUnit	CityMapGenerator.h	/^  uint32 PixelsPerMapUnit = 50u;$/;"	m	class:ACityMapGenerator
+PostEditChangeProperty	DynamicWeather.cpp	/^void ADynamicWeather::PostEditChangeProperty(FPropertyChangedEvent &Event)$/;"	f	class:ADynamicWeather
+PostEditChangeProperty	OpenDriveActor.cpp	/^void AOpenDriveActor::PostEditChangeProperty(struct FPropertyChangedEvent &Event)$/;"	f	class:AOpenDriveActor
+PostEditChangeProperty	RoadIntersection.cpp	/^void ARoadIntersection::PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent)$/;"	f	class:ARoadIntersection
+PostEditChangeProperty	RoadSegment.cpp	/^void ARoadSegment::PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent)$/;"	f	class:ARoadSegment
+PreSave	CityMapGenerator.cpp	/^void ACityMapGenerator::PreSave(const ITargetPlatform *TargetPlatform)$/;"	f	class:ACityMapGenerator
+RegisterSettings	Carla.cpp	/^void FCarlaModule::RegisterSettings()$/;"	f	class:FCarlaModule
+RemoveAllPieces	RoadSegment.h	/^  void RemoveAllPieces()$/;"	f	class:ARoadSegment
+RemoveDebugRoutes	OpenDriveActor.cpp	/^void AOpenDriveActor::RemoveDebugRoutes() const$/;"	f	class:AOpenDriveActor
+RemoveRoutes	OpenDriveActor.cpp	/^void AOpenDriveActor::RemoveRoutes()$/;"	f	class:AOpenDriveActor
+RemoveSpawners	OpenDriveActor.cpp	/^void AOpenDriveActor::RemoveSpawners()$/;"	f	class:AOpenDriveActor
+RoadAccuracy	OpenDriveActor.h	/^  float RoadAccuracy = 2.f;$/;"	m	class:AOpenDriveActor
+RoadDescription	RoadSegment.h	/^  TArray<FRoadSegmentPiece> RoadDescription;$/;"	m	class:ARoadSegment
+RoadMap	CityMapGenerator.h	/^  URoadMap *RoadMap;$/;"	m	class:ACityMapGenerator
+RoadSegmentItems	RoadSegment.cpp	/^enum RoadSegmentItems {$/;"	g	file:
+RoutePlanners	OpenDriveActor.h	/^  TArray<ARoutePlanner *> RoutePlanners;$/;"	m	class:AOpenDriveActor
+SaveToConfigFile	DynamicWeather.cpp	/^bool ADynamicWeather::SaveToConfigFile() const$/;"	f	class:ADynamicWeather
+Scale	RoadSegment.h	/^  float Scale = 1.0f;$/;"	m	class:ARoadSegment
+Seed	CityMapGenerator.h	/^  int32 Seed = 123456789;$/;"	m	class:ACityMapGenerator
+Set	CityMapGenerator.cpp	/^  std::unordered_set<const HalfEdge *> Set;$/;"	m	class:FHalfEdgeCounter	file:
+SetStaticMesh	RoadIntersection.cpp	/^void ARoadIntersection::SetStaticMesh(ERoadIntersectionItem Item, UStaticMesh *StaticMesh)$/;"	f	class:ARoadIntersection
+SetStaticMesh_LaneLeft	RoadSegment.h	/^  void SetStaticMesh_LaneLeft(UStaticMesh *StaticMesh)$/;"	f	class:ARoadSegment
+SetStaticMesh_LaneMarkingBroken	RoadSegment.h	/^  void SetStaticMesh_LaneMarkingBroken(UStaticMesh *StaticMesh)$/;"	f	class:ARoadSegment
+SetStaticMesh_LaneMarkingSolid	RoadSegment.h	/^  void SetStaticMesh_LaneMarkingSolid(UStaticMesh *StaticMesh)$/;"	f	class:ARoadSegment
+SetStaticMesh_LaneRight	RoadSegment.h	/^  void SetStaticMesh_LaneRight(UStaticMesh *StaticMesh)$/;"	f	class:ARoadSegment
+SetStaticMesh_SidewalkLeft	RoadSegment.h	/^  void SetStaticMesh_SidewalkLeft(UStaticMesh *StaticMesh)$/;"	f	class:ARoadSegment
+SetStaticMesh_SidewalkRight	RoadSegment.h	/^  void SetStaticMesh_SidewalkRight(UStaticMesh *StaticMesh)$/;"	f	class:ARoadSegment
+SetWeatherDescription	DynamicWeather.h	/^  void SetWeatherDescription(const FWeatherDescription &WeatherDescription)$/;"	f	class:ADynamicWeather
+ShutdownModule	Carla.cpp	/^void FCarlaModule::ShutdownModule()$/;"	f	class:FCarlaModule
+SidewalkLeft	RoadSegment.h	/^  UStaticMesh *SidewalkLeft;$/;"	m	class:ARoadSegment
+SidewalkRight	RoadSegment.h	/^  UStaticMesh *SidewalkRight;$/;"	m	class:ARoadSegment
+SpawnersHeight	OpenDriveActor.h	/^  float SpawnersHeight = 300.f;$/;"	m	class:AOpenDriveActor
+SpriteComponent	OpenDriveActor.h	/^  UBillboardComponent *SpriteComponent;$/;"	m	class:AOpenDriveActor
+SpriteTexture	OpenDriveActor.h	/^  UTexture2D *SpriteTexture;$/;"	m	class:AOpenDriveActor
+StartupModule	Carla.cpp	/^void FCarlaModule::StartupModule()$/;"	f	class:FCarlaModule
+StaticMeshComponents	RoadIntersection.h	/^  TArray<UStaticMeshComponent *> StaticMeshComponents;$/;"	m	class:ARoadIntersection
+StaticMeshes	RoadIntersection.h	/^  TMap<ERoadIntersectionItem, UStaticMesh *> StaticMeshes;$/;"	m	class:ARoadIntersection
+TrafficGroupBlueprintClass	OpenDriveActor.h	/^  TSubclassOf<class AActor> TrafficGroupBlueprintClass;$/;"	m	class:AOpenDriveActor
+TrafficLightBlueprintClass	OpenDriveActor.h	/^  TSubclassOf<class AActor> TrafficLightBlueprintClass;$/;"	m	class:AOpenDriveActor
+TrafficSign100BlueprintClass	OpenDriveActor.h	/^  TSubclassOf<class AActor> TrafficSign100BlueprintClass;$/;"	m	class:AOpenDriveActor
+TrafficSign30BlueprintClass	OpenDriveActor.h	/^  TSubclassOf<class AActor> TrafficSign30BlueprintClass;$/;"	m	class:AOpenDriveActor
+TrafficSign40BlueprintClass	OpenDriveActor.h	/^  TSubclassOf<class AActor> TrafficSign40BlueprintClass;$/;"	m	class:AOpenDriveActor
+TrafficSign60BlueprintClass	OpenDriveActor.h	/^  TSubclassOf<class AActor> TrafficSign60BlueprintClass;$/;"	m	class:AOpenDriveActor
+TrafficSign90BlueprintClass	OpenDriveActor.h	/^  TSubclassOf<class AActor> TrafficSign90BlueprintClass;$/;"	m	class:AOpenDriveActor
+TriggersHeight	OpenDriveActor.h	/^  float TriggersHeight = 100.f;$/;"	m	class:AOpenDriveActor
+UnregisterSettings	Carla.cpp	/^void FCarlaModule::UnregisterSettings()$/;"	f	class:FCarlaModule
+Update	DynamicWeather.cpp	/^void ADynamicWeather::Update()$/;"	f	class:ADynamicWeather
+UpdateMap	CityMapGenerator.cpp	/^void ACityMapGenerator::UpdateMap()$/;"	f	class:ACityMapGenerator
+UpdateMeshes	RoadIntersection.cpp	/^void ARoadIntersection::UpdateMeshes()$/;"	f	class:ARoadIntersection
+UpdateMeshes	RoadSegment.cpp	/^void ARoadSegment::UpdateMeshes()$/;"	f	class:ARoadSegment
+UpdateRoad	RoadSegment.cpp	/^void ARoadSegment::UpdateRoad()$/;"	f	class:ARoadSegment
+UpdateSeeds	CityMapGenerator.cpp	/^void ACityMapGenerator::UpdateSeeds()$/;"	f	class:ACityMapGenerator
+UseDebugLibs	Carla.Build.cs	/^  private bool UseDebugLibs(ReadOnlyTargetRules Target)$/;"	m	class:Carla	file:
+VehicleSpawners	OpenDriveActor.h	/^  TArray<AVehicleSpawnPoint *> VehicleSpawners;$/;"	m	class:AOpenDriveActor
+Weather	DynamicWeather.h	/^  FWeatherDescription Weather;$/;"	m	class:ADynamicWeather
+bAddSpawners	OpenDriveActor.h	/^  bool bAddSpawners = false;$/;"	m	class:AOpenDriveActor
+bDrawDebugPixelsToLevel	CityMapGenerator.h	/^  bool bDrawDebugPixelsToLevel = false;$/;"	m	class:ACityMapGenerator
+bGenerateRoadMapOnSave	CityMapGenerator.h	/^  bool bGenerateRoadMapOnSave = true;$/;"	m	class:ACityMapGenerator
+bGenerateRoads	CityMapGenerator.h	/^  bool bGenerateRoads = true;$/;"	m	class:ACityMapGenerator
+bGenerateRoutes	OpenDriveActor.h	/^  bool bGenerateRoutes = false;$/;"	m	class:AOpenDriveActor
+bHasLeftSidewalk	RoadSegment.h	/^  bool bHasLeftSidewalk = true;$/;"	m	struct:FRoadSegmentPiece
+bHasRightSidewalk	RoadSegment.h	/^  bool bHasRightSidewalk = true;$/;"	m	struct:FRoadSegmentPiece
+bLeftHandTraffic	CityMapGenerator.h	/^  bool bLeftHandTraffic = false;$/;"	m	class:ACityMapGenerator
+bLoadFromConfigFile	DynamicWeather.h	/^  bool bLoadFromConfigFile = false;$/;"	m	class:ADynamicWeather
+bOnIntersections	OpenDriveActor.h	/^  bool bOnIntersections = false;$/;"	m	class:AOpenDriveActor
+bRefreshAutomatically	DynamicWeather.h	/^  bool bRefreshAutomatically = false;$/;"	m	class:ADynamicWeather
+bRemoveCurrentSpawners	OpenDriveActor.h	/^  bool bRemoveCurrentSpawners = false;$/;"	m	class:AOpenDriveActor
+bRemoveRoutes	OpenDriveActor.h	/^  bool bRemoveRoutes = false;$/;"	m	class:AOpenDriveActor
+bSaveRoadMapToDisk	CityMapGenerator.h	/^  bool bSaveRoadMapToDisk = true;$/;"	m	class:ACityMapGenerator
+bSaveToConfigFile	DynamicWeather.h	/^  bool bSaveToConfigFile = false;$/;"	m	class:ADynamicWeather
+bShowDebug	OpenDriveActor.h	/^  bool bShowDebug = true;$/;"	m	class:AOpenDriveActor
+bTagForSemanticSegmentation	CityMapGenerator.h	/^  bool bTagForSemanticSegmentation = false;$/;"	m	class:ACityMapGenerator
+bTriggerRoadMapGeneration	CityMapGenerator.h	/^  bool bTriggerRoadMapGeneration = false;$/;"	m	class:ACityMapGenerator
+bUseFixedSeed	CityMapGenerator.h	/^  bool bUseFixedSeed = true;$/;"	m	class:ACityMapGenerator
+carla	Carla.cpp	/^namespace carla {$/;"	n	file:
+override	Carla.h	/^	virtual void ShutdownModule() override;$/;"	m	class:FCarlaModule
+override	Carla.h	/^	virtual void StartupModule() override;$/;"	m	class:FCarlaModule
+override	CityMapGenerator.h	/^  virtual void PreSave(const ITargetPlatform *TargetPlatform) override;$/;"	m	class:ACityMapGenerator
+override	CityMapGenerator.h	/^  virtual void UpdateMap() override;$/;"	m	class:ACityMapGenerator
+override	DynamicWeather.h	/^  virtual void BeginPlay() override;$/;"	m	class:ADynamicWeather
+override	DynamicWeather.h	/^  virtual void EditorApplyRotation(const FRotator & DeltaRotation, bool bAltDown, bool bShiftDown, bool bCtrlDown) override;$/;"	m	class:ADynamicWeather
+override	DynamicWeather.h	/^  virtual void OnConstruction(const FTransform &Transform) override;$/;"	m	class:ADynamicWeather
+override	DynamicWeather.h	/^  virtual void PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent) override;$/;"	m	class:ADynamicWeather
+override	RoadIntersection.h	/^  virtual void PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent) override;$/;"	m	class:ARoadIntersection
+override	RoadSegment.h	/^  virtual void OnConstruction(const FTransform &Transform) override;$/;"	m	class:ARoadSegment
+override	RoadSegment.h	/^  virtual void PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent) override;$/;"	m	class:ARoadSegment
+throw_exception	Carla.cpp	/^  void throw_exception(const std::exception &e) {$/;"	f	namespace:carla
+~ACityMapGenerator	CityMapGenerator.cpp	/^ACityMapGenerator::~ACityMapGenerator() {}$/;"	f	class:ACityMapGenerator

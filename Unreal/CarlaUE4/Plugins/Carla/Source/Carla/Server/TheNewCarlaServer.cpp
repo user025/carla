@@ -877,6 +877,13 @@ void FTheNewCarlaServer::AsyncRun(uint32 NumberOfWorkerThreads)
   /// @todo Define better the number of threads each server gets.
   auto RPCThreads = NumberOfWorkerThreads / 2u;
   auto StreamingThreads = NumberOfWorkerThreads - RPCThreads;
+  // my log
+  UE_LOG(
+          LogCarlaServer, 
+          Log, 
+          TEXT("get thread numbers RPC: %d, Stream: %d"), 
+          NumberOfWorkerThreads, 
+          StreamingThreads);
   Pimpl->Server.AsyncRun(std::max(2u, RPCThreads));
   Pimpl->StreamingServer.AsyncRun(std::max(2u, StreamingThreads));
 }
